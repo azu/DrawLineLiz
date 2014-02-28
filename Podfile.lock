@@ -1,0 +1,14 @@
+PODS:
+  - ArsScale (0.0.2)
+
+DEPENDENCIES:
+  - ArsScale (from `https://github.com/azu/ArsScale.git`)
+
+EXTERNAL SOURCES:
+  ArsScale:
+    :git: https://github.com/azu/ArsScale.git
+
+SPEC CHECKSUMS:
+  ArsScale: cc779a5b141c6a2c668ce218f17552141d221d2c
+
+COCOAPODS: 0.28.0

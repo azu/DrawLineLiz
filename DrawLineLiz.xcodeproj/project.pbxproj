@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		17B5C07763E5438800F0D2D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C4A4FD998102968CD8F4 /* Main.storyboard */; };
+		17B5C0FFFE8FF5341A38675C /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C7834D88B4F66877FBC9 /* UIKit.framework */; };
+		17B5C16722686776397AE8BF /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CB2DAC85295CE875DC70 /* CoreGraphics.framework */; };
+		17B5C2107AAC8487DF04F167 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CBA16B0E342174840355 /* AppDelegate.m */; };
+		17B5C2242F4C648E1CFB0897 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C3D08E340C174D38EC80 /* InfoPlist.strings */; };
+		17B5C366A9C1C5F8DC0B7273 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CF701FD47172B02B2CBB /* Foundation.framework */; };
+		17B5C48D11CF6920B188B24C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C79EBD0A25CBE58AE7C5 /* main.m */; };
+		17B5C4BEAD5F58599011F665 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C1E7451573743DD8B755 /* Podfile */; };
+		17B5C68D827FBE63BD16E1D5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C7834D88B4F66877FBC9 /* UIKit.framework */; };
+		17B5CAC58F3765540E737256 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5CF701FD47172B02B2CBB /* Foundation.framework */; };
+		17B5CBF5E180966ECD70FC81 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C4ECEE230CA9B7472AF7 /* InfoPlist.strings */; };
+		17B5CD2BF9AF35C26AC01142 /* CanvasView.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5CD54CE26C561D50A3AFD /* CanvasView.m */; };
+		17B5CD8DC96DC1FD9DF1CA56 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 17B5C0C8882AD596C643EF06 /* Images.xcassets */; };
+		17B5CEF8E7AFCEEBC8F85E92 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C0056D159D35B65673B8 /* ViewController.m */; };
+		17B5CF1E6EDF7194765A98FE /* DrawLineLizTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 17B5C9606F254F2B743591A5 /* DrawLineLizTests.m */; };
+		17B5CF94A8134C3817D0A97D /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 17B5C870413502DFDF9488F0 /* XCTest.framework */; };
+		6B60B74880834E0A8A31C7D2 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 347A2089CE0C4C5E842125AC /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		17B5C0B70240C657A207F02F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 17B5C294187354C584F5BE70 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 17B5C5B5CADA07348E616254;
+			remoteInfo = DrawLineLiz;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		17B5C0056D159D35B65673B8 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		17B5C089F2BE3C2997772062 /* DrawLineLizTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DrawLineLizTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C0C8882AD596C643EF06 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		17B5C1E7451573743DD8B755 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = "<group>"; };
+		17B5C359237C8E257C775BBF /* CanvasView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CanvasView.h; sourceTree = "<group>"; };
+		17B5C4D37D5AA3315D779BEA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		17B5C4EB2D014E06435B3B1F /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5C7834D88B4F66877FBC9 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		17B5C79EBD0A25CBE58AE7C5 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		17B5C7C8BD7D76A9A727DB3E /* DrawLineLiz.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DrawLineLiz.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		17B5C7C9C585D2D8AD91FDC3 /* readme.md */ = {isa = PBXFileReference; lastKnownFileType = file.md; path = readme.md; sourceTree = "<group>"; };
+		17B5C870413502DFDF9488F0 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		17B5C9153D9F146C657A6180 /* DrawLineLiz-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DrawLineLiz-Info.plist"; sourceTree = "<group>"; };
+		17B5C9606F254F2B743591A5 /* DrawLineLizTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DrawLineLizTests.m; sourceTree = "<group>"; };
+		17B5C9CEF006940FA60F3BD2 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		17B5C9E4E6A1E1BD97EAEDB1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		17B5CA470D00AEF0C65AEBB7 /* DrawLineLiz-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "DrawLineLiz-Prefix.pch"; sourceTree = "<group>"; };
+		17B5CB2DAC85295CE875DC70 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		17B5CBA16B0E342174840355 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		17B5CC6618275DF11540263B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		17B5CD54CE26C561D50A3AFD /* CanvasView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CanvasView.m; sourceTree = "<group>"; };
+		17B5CEBFD41A93861CE3DEB1 /* DrawLineLizTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.info; path = "DrawLineLizTests-Info.plist"; sourceTree = "<group>"; };
+		17B5CF701FD47172B02B2CBB /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		347A2089CE0C4C5E842125AC /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		483DF1003F4742D280033E50 /* Pods.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.xcconfig; path = Pods/Pods.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		17B5C2BE9CF27DEE22D21D0E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CAC58F3765540E737256 /* Foundation.framework in Frameworks */,
+				17B5C16722686776397AE8BF /* CoreGraphics.framework in Frameworks */,
+				17B5C68D827FBE63BD16E1D5 /* UIKit.framework in Frameworks */,
+				6B60B74880834E0A8A31C7D2 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CF7045CB08D80C7C6803 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CF94A8134C3817D0A97D /* XCTest.framework in Frameworks */,
+				17B5C366A9C1C5F8DC0B7273 /* Foundation.framework in Frameworks */,
+				17B5C0FFFE8FF5341A38675C /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		17B5C12E32AF37F3F332480A /* DrawLineLiz */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CD571338D3915F794CCE /* Supporting Files */,
+				17B5CC6618275DF11540263B /* AppDelegate.h */,
+				17B5CBA16B0E342174840355 /* AppDelegate.m */,
+				17B5C0C8882AD596C643EF06 /* Images.xcassets */,
+				17B5C4A4FD998102968CD8F4 /* Main.storyboard */,
+				17B5C9CEF006940FA60F3BD2 /* ViewController.h */,
+				17B5C0056D159D35B65673B8 /* ViewController.m */,
+				17B5CD80F64ED3E513DA9FC9 /* Canvas */,
+			);
+			path = DrawLineLiz;
+			sourceTree = "<group>";
+		};
+		17B5C8EDF6E6983AC74D6686 /* DrawLineLizTests */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CB17ADAC3F116F27D66E /* Supporting Files */,
+				17B5C9606F254F2B743591A5 /* DrawLineLizTests.m */,
+			);
+			path = DrawLineLizTests;
+			sourceTree = "<group>";
+		};
+		17B5C99CF44B39CA4C414725 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CF701FD47172B02B2CBB /* Foundation.framework */,
+				17B5CB2DAC85295CE875DC70 /* CoreGraphics.framework */,
+				17B5C7834D88B4F66877FBC9 /* UIKit.framework */,
+				17B5C870413502DFDF9488F0 /* XCTest.framework */,
+				347A2089CE0C4C5E842125AC /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		17B5CB17ADAC3F116F27D66E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CEBFD41A93861CE3DEB1 /* DrawLineLizTests-Info.plist */,
+				17B5C3D08E340C174D38EC80 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5CB9FE7545BA5B8125F2D = {
+			isa = PBXGroup;
+			children = (
+				17B5CF17AA0174D7569AC454 /* Products */,
+				17B5C99CF44B39CA4C414725 /* Frameworks */,
+				17B5C12E32AF37F3F332480A /* DrawLineLiz */,
+				17B5C8EDF6E6983AC74D6686 /* DrawLineLizTests */,
+				17B5C1E7451573743DD8B755 /* Podfile */,
+				483DF1003F4742D280033E50 /* Pods.xcconfig */,
+				17B5C7C9C585D2D8AD91FDC3 /* readme.md */,
+			);
+			sourceTree = "<group>";
+		};
+		17B5CD571338D3915F794CCE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C9153D9F146C657A6180 /* DrawLineLiz-Info.plist */,
+				17B5C4ECEE230CA9B7472AF7 /* InfoPlist.strings */,
+				17B5C79EBD0A25CBE58AE7C5 /* main.m */,
+				17B5CA470D00AEF0C65AEBB7 /* DrawLineLiz-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		17B5CD80F64ED3E513DA9FC9 /* Canvas */ = {
+			isa = PBXGroup;
+			children = (
+				17B5CD54CE26C561D50A3AFD /* CanvasView.m */,
+				17B5C359237C8E257C775BBF /* CanvasView.h */,
+			);
+			path = Canvas;
+			sourceTree = "<group>";
+		};
+		17B5CF17AA0174D7569AC454 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				17B5C7C8BD7D76A9A727DB3E /* DrawLineLiz.app */,
+				17B5C089F2BE3C2997772062 /* DrawLineLizTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		17B5C5B5CADA07348E616254 /* DrawLineLiz */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5C4D6126CEB18F7358EF0 /* Build configuration list for PBXNativeTarget "DrawLineLiz" */;
+			buildPhases = (
+				BB7059C27A044DB1ACA099EA /* Check Pods Manifest.lock */,
+				17B5C3793CF3D803B657F272 /* Sources */,
+				17B5C2BE9CF27DEE22D21D0E /* Frameworks */,
+				17B5CEBA232BCD59EE5AF33C /* Resources */,
+				A03B0D55B3D8441BB3065B5D /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DrawLineLiz;
+			productName = DrawLineLiz;
+			productReference = 17B5C7C8BD7D76A9A727DB3E /* DrawLineLiz.app */;
+			productType = "com.apple.product-type.application";
+		};
+		17B5C90C71C29E676C8FA3F8 /* DrawLineLizTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 17B5CCA029799E65A809F4A2 /* Build configuration list for PBXNativeTarget "DrawLineLizTests" */;
+			buildPhases = (
+				17B5C7E72EECD857992C143A /* Sources */,
+				17B5CF7045CB08D80C7C6803 /* Frameworks */,
+				17B5C2CBE92FFD5677436514 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17B5C534DF8B99C547CBAFD7 /* PBXTargetDependency */,
+			);
+			name = DrawLineLizTests;
+			productName = DrawLineLizTests;
+			productReference = 17B5C089F2BE3C2997772062 /* DrawLineLizTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		17B5C294187354C584F5BE70 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				ORGANIZATIONNAME = azu;
+			};
+			buildConfigurationList = 17B5C5E09ABD49020FA7652A /* Build configuration list for PBXProject "DrawLineLiz" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 17B5CB9FE7545BA5B8125F2D;
+			productRefGroup = 17B5CF17AA0174D7569AC454 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				17B5C5B5CADA07348E616254 /* DrawLineLiz */,
+				17B5C90C71C29E676C8FA3F8 /* DrawLineLizTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		17B5C2CBE92FFD5677436514 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C2242F4C648E1CFB0897 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5CEBA232BCD59EE5AF33C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CBF5E180966ECD70FC81 /* InfoPlist.strings in Resources */,
+				17B5CD8DC96DC1FD9DF1CA56 /* Images.xcassets in Resources */,
+				17B5C07763E5438800F0D2D2 /* Main.storyboard in Resources */,
+				17B5C4BEAD5F58599011F665 /* Podfile in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A03B0D55B3D8441BB3065B5D /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		BB7059C27A044DB1ACA099EA /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		17B5C3793CF3D803B657F272 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5C48D11CF6920B188B24C /* main.m in Sources */,
+				17B5C2107AAC8487DF04F167 /* AppDelegate.m in Sources */,
+				17B5CEF8E7AFCEEBC8F85E92 /* ViewController.m in Sources */,
+				17B5CD2BF9AF35C26AC01142 /* CanvasView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		17B5C7E72EECD857992C143A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				17B5CF1E6EDF7194765A98FE /* DrawLineLizTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17B5C534DF8B99C547CBAFD7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 17B5C5B5CADA07348E616254 /* DrawLineLiz */;
+			targetProxy = 17B5C0B70240C657A207F02F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		17B5C3D08E340C174D38EC80 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C4EB2D014E06435B3B1F /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		17B5C4A4FD998102968CD8F4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C4D37D5AA3315D779BEA /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		17B5C4ECEE230CA9B7472AF7 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				17B5C9E4E6A1E1BD97EAEDB1 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		17B5C09905C1C91106A4CF77 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483DF1003F4742D280033E50 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawLineLiz/DrawLineLiz-Prefix.pch";
+				INFOPLIST_FILE = "DrawLineLiz/DrawLineLiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		17B5C3AD87793BD3683409E9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawLineLiz/DrawLineLiz-Prefix.pch";
+				INFOPLIST_FILE = "DrawLineLizTests/DrawLineLizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+		17B5C569442E425BBA3BE7BF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		17B5CD36B6B4CA339A909731 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		17B5CDFFC595143BC10AB0F1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 483DF1003F4742D280033E50 /* Pods.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawLineLiz/DrawLineLiz-Prefix.pch";
+				INFOPLIST_FILE = "DrawLineLiz/DrawLineLiz-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "\"${PROJECT_DIR}/Pods\"/**";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		17B5CE0DA56787B606EFF078 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "DrawLineLiz/DrawLineLiz-Prefix.pch";
+				INFOPLIST_FILE = "DrawLineLizTests/DrawLineLizTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		17B5C4D6126CEB18F7358EF0 /* Build configuration list for PBXNativeTarget "DrawLineLiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5CDFFC595143BC10AB0F1 /* Release */,
+				17B5C09905C1C91106A4CF77 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5C5E09ABD49020FA7652A /* Build configuration list for PBXProject "DrawLineLiz" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C569442E425BBA3BE7BF /* Release */,
+				17B5CD36B6B4CA339A909731 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		17B5CCA029799E65A809F4A2 /* Build configuration list for PBXNativeTarget "DrawLineLizTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				17B5C3AD87793BD3683409E9 /* Release */,
+				17B5CE0DA56787B606EFF078 /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 17B5C294187354C584F5BE70 /* Project object */;
+}
