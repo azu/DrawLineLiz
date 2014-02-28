@@ -5,6 +5,8 @@
 
 #import <Foundation/Foundation.h>
 
+@class ArsScaleLinear;
+
 
 @interface CanvasView : UIView
 @end
