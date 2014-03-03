@@ -6,6 +6,8 @@ Draw bar plot using Core Graphics + UILabel.
 
 ![ScreenShot](http://monosnap.com/image/ufVQap8F3bEvUZdnE0pOTIAf9ki3m3.png)
 
+LineChart => [azu/LineChartOnRecycledScroll](https://github.com/azu/LineChartOnRecycledScroll "azu/LineChartOnRecycledScroll")
+
 ## Installation
 
 ```sh
@@ -23,3 +25,4 @@ $ pod install
 ## License
 
 MIT
+
