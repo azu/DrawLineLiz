@@ -5,7 +5,7 @@
 
 #import <ArsScale/ArsScaleLinear.h>
 #import "CanvasView.h"
-#import "ArsDashFunction.h"
+#import "ArsMinMax.h"
 
 
 @interface CanvasView ()

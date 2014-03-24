@@ -1,5 +1,7 @@
 PODS:
-  - ArsScale (0.0.2)
+  - ArsDashFunction (0.0.1)
+  - ArsScale (0.1.0):
+    - ArsDashFunction (~> 0.0.1)
 
 DEPENDENCIES:
   - ArsScale (from `https://github.com/azu/ArsScale.git`)
@@ -9,6 +11,7 @@ EXTERNAL SOURCES:
     :git: https://github.com/azu/ArsScale.git
 
 SPEC CHECKSUMS:
-  ArsScale: cc779a5b141c6a2c668ce218f17552141d221d2c
+  ArsDashFunction: 0e4923f8fd46ba6935c83cf561af9340ee50b84a
+  ArsScale: db64ea541362211b24ef2b7b2705756fed020ef9
 
-COCOAPODS: 0.28.0
+COCOAPODS: 0.29.0
